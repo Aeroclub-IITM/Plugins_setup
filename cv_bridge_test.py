@@ -8,7 +8,8 @@ rospy.init_node('opencv_example', anonymous=True)
 
 def show_image(img):
   cv2.namedWindow("Image Window")
-  cv2.imshow("Image Window", img)
+  im_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+  cv2.imshow("Image Window", im_rgb)
   cv2.waitKey(3)
 
 
