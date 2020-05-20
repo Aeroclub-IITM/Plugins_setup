@@ -8,4 +8,4 @@ This repo aims to explore on how to get values from various sensors in the drone
 
 ## Additionals
 
-[To make webcam a rosnode](https://github.com/Aeroclub-IITM/Plugins_setup/wiki/_new)
+[To make webcam a rosnode](https://github.com/Aeroclub-IITM/Plugins_setup/wiki/Webcam-rosnode)
